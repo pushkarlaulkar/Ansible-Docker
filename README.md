@@ -20,3 +20,13 @@ CentOS OS
 Exec into the container
 
 `docker exec -it ansible-centos bash`
+
+
+Ubuntu OS
+-------
+
+`docker run -d --name ansible-ubuntu --restart always plaulkar/ansible:ubuntu`
+
+Exec into the container
+
+`docker exec -it ansible-ubuntu bash`
